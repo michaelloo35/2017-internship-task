@@ -14,7 +14,8 @@ import static org.testng.Assert.*;
  */
 public class SchedulerTest {
 
-
+    // could've make callback as callable and return some indication to use it later in tests at least i think so
+    // dunno how to capture output from console
     // 2 timeouts (2x timed out, 2x handled)
     @Test
     public void test1() throws Exception {
